@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/myid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My ID : - - -"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Session Code : - - -"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Server"
+        android:textColor="#fff"
+        android:background="#0088ff"
+        android:layout_margin="50dp"/>
+
+</LinearLayout>
